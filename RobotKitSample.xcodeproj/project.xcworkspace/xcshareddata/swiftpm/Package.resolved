@@ -1,0 +1,15 @@
+{
+  "originHash" : "e3d3169b0fa1aaccfb2c3a2ef8bb5bfd352ed3051837fc54689e8819a4cc0c73",
+  "pins" : [
+    {
+      "identity" : "robotkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nthState/RobotKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "34a3cd1136280e02405557b29ce2a08f87cf51b7"
+      }
+    }
+  ],
+  "version" : 3
+}
