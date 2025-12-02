@@ -52,7 +52,8 @@ final class PlacementTestsWithRobot: BaseUITest {
       }
       .tapPlaceCube()
       .moveRobot {
-        async let _ = robot.panRight()
+       // async let _ = robot.panRight()
+        try await robot.panRight()
       }
       .tapCloseButton()
       .tapCenterOfScreen()
