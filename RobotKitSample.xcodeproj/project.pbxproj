@@ -33,9 +33,29 @@
 		6712ADBA2ED8964800527348 /* RobotKitSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobotKitSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		67C23B972EEB0AB100AAA9A9 /* Exceptions for "RobotKitSample" folder in "RobotKitSample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6712ADA22ED8964700527348 /* RobotKitSample */;
+		};
+		67C23B9B2EEB0E5E00AAA9A9 /* Exceptions for "RobotKitSampleUITests" folder in "RobotKitSampleUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6712ADB92ED8964800527348 /* RobotKitSampleUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6712ADA52ED8964700527348 /* RobotKitSample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				67C23B972EEB0AB100AAA9A9 /* Exceptions for "RobotKitSample" folder in "RobotKitSample" target */,
+			);
 			path = RobotKitSample;
 			sourceTree = "<group>";
 		};
@@ -46,6 +66,9 @@
 		};
 		6712ADBD2ED8964800527348 /* RobotKitSampleUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				67C23B9B2EEB0E5E00AAA9A9 /* Exceptions for "RobotKitSampleUITests" folder in "RobotKitSampleUITests" target */,
+			);
 			path = RobotKitSampleUITests;
 			sourceTree = "<group>";
 		};
@@ -411,7 +434,9 @@
 				DEVELOPMENT_TEAM = QA8E8RMHCT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RobotKitSample/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = CAMERA_USAGE_DESCRIPTION;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Need network access for the Robot";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
@@ -445,7 +470,9 @@
 				DEVELOPMENT_TEAM = QA8E8RMHCT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RobotKitSample/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = CAMERA_USAGE_DESCRIPTION;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Need network access for the Robot";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
@@ -520,6 +547,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QA8E8RMHCT;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RobotKitSampleUITests/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Need network access for the Robot";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nthstate.RobotKitSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -540,6 +569,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QA8E8RMHCT;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RobotKitSampleUITests/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Need network access for the Robot";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nthstate.RobotKitSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
