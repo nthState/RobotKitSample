@@ -31,17 +31,17 @@ final class PlacementTestsWithRobot: BaseUITest {
   // Must be called to initalize a network connection otherwise you get "Local network prohibited"
   // https://developer.apple.com/forums/thread/668729
 //  func testXCTRunnerToAskForLocalNetworkPermission() {
-//    
+//
 //    guard setupLocalNetwork else { return }
-//    
+//
 //    // without bringing xctrunner to front, permission alert won't be shown.
 //    let app = XCUIApplication(bundleIdentifier: "com.nthstate.RobotKitSampleUITests.xctrunner")
 //    app.activate()
-//    
+//
 //    connectToLocalNetwork(url: URL(string: "http://192.168.1.183")!)
-//    
+//
 //    waitFor(aSecond: 1)
-//    
+//
 //    let springBoard = XCUIApplication(bundleIdentifier: "com.apple.springboard")
 //    // Allows local network permission.
 //    let button = springBoard.alerts.firstMatch.buttons["Allow"]
@@ -50,7 +50,7 @@ final class PlacementTestsWithRobot: BaseUITest {
 //      // local network is allowed in current running ui test.
 //      connectToLocalNetwork(url: URL(string: "http://192.168.1.183")!) // try to connect, as it's allowed now.
 //    }
-//    
+//
 //    // Keep XCUITest running forever, though sometimes it stops automatically
 //    wait(for: [expectation(description: "keep running")], timeout: .infinity)
 //  }

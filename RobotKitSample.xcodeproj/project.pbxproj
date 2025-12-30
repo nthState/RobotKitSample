@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6712AE292ED8970C00527348 /* RobotKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6712AE282ED8970C00527348 /* RobotKit */; };
+		67E7010C2F03028E001BB245 /* RobotKit in Frameworks */ = {isa = PBXBuildFile; productRef = 67E7010B2F03028E001BB245 /* RobotKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6712AE292ED8970C00527348 /* RobotKit in Frameworks */,
+				67E7010C2F03028E001BB245 /* RobotKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +186,7 @@
 			);
 			name = RobotKitSampleUITests;
 			packageProductDependencies = (
-				6712AE282ED8970C00527348 /* RobotKit */,
+				67E7010B2F03028E001BB245 /* RobotKit */,
 			);
 			productName = RobotKitSampleUITests;
 			productReference = 6712ADBA2ED8964800527348 /* RobotKitSampleUITests.xctest */;
@@ -225,7 +225,7 @@
 			mainGroup = 6712AD9A2ED8964700527348;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				6712AE272ED8970C00527348 /* XCRemoteSwiftPackageReference "RobotKit" */,
+				67E7010A2F03028E001BB245 /* XCRemoteSwiftPackageReference "RobotKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6712ADA42ED8964700527348 /* Products */;
@@ -626,20 +626,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6712AE272ED8970C00527348 /* XCRemoteSwiftPackageReference "RobotKit" */ = {
+		67E7010A2F03028E001BB245 /* XCRemoteSwiftPackageReference "RobotKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/nthState/RobotKit";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = exactVersion;
+				version = 0.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6712AE282ED8970C00527348 /* RobotKit */ = {
+		67E7010B2F03028E001BB245 /* RobotKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6712AE272ED8970C00527348 /* XCRemoteSwiftPackageReference "RobotKit" */;
+			package = 67E7010A2F03028E001BB245 /* XCRemoteSwiftPackageReference "RobotKit" */;
 			productName = RobotKit;
 		};
 /* End XCSwiftPackageProductDependency section */

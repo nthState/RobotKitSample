@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/nthState/RobotKit",
       "state" : {
-        "branch" : "main",
-        "revision" : "526b4e2ae09a7049e957d7f530acff574fbbcbcc"
+        "revision" : "a7acfdfeb1d2409d72af63e58ae600f55e954128",
+        "version" : "0.0.1"
       }
     }
   ],
